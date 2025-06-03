@@ -12,7 +12,7 @@ export const teamMembers: Member[] = [
         name: "Trần Phú Đạt",
         role: "Developer",
         image: "/images/members/tran-phu-dat.jpg",
-        description: "Architect và system design"
+        description: "Đóng góp tích cực trong việc phát triển hệ thống"
     },
     {
         id: 2,
@@ -40,7 +40,7 @@ export const teamMembers: Member[] = [
         name: "Nguyễn Đình Hướng",
         role: "Developer",
         image: "/images/members/nguyen-dinh-huong.jpg",
-        description: "Đóng góp tích cực trong việc phát triển hệ thống"
+        description: "Architect và system design"
     },
     {
         id: 6,
