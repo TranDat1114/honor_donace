@@ -19,10 +19,10 @@ Trang Landing Page vinh danh những thành viên xuất sắc đã cống hiế
 
 1. **Trần Phú Đạt** - Developer
 2. **Nguyễn Hoàng Tùng** - Developer  
-3. **Trần Văn Tiếp** - Developer
-4. **Nguyễn Hiển Gia Bảo** - Developer
-5. **Nguyễn Đình Hướng** - Developer
-6. **Trương Thị Kiều An** - Developer
+3. **Trần Văn Tiếp** - Developer BE - Architect và system design
+4. **Nguyễn Hiển Gia Bảo** - UX Super Frontend Developer
+5. **Nguyễn Đình Hướng** - Developer - Tester
+6. **Trương Thị Kiều An** - UX/UI
 
 ## 🛠 Công Nghệ
 

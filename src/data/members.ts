@@ -12,14 +12,14 @@ export const teamMembers: Member[] = [
         name: "Trần Phú Đạt",
         role: "Developer",
         image: "/images/members/tran-phu-dat.jpg",
-        description: "Đóng góp tích cực trong việc phát triển hệ thống"
+        description: "Architect và system design"
     },
     {
         id: 2,
         name: "Nguyễn Hoàng Tùng",
         role: "Developer",
         image: "/images/members/nguyen-hoang-tung.jpg",
-        description: "Chuyên gia về frontend và user experience"
+        description: "Chuyên gia phát triển tính năng"
     },
     {
         id: 3,
@@ -33,21 +33,21 @@ export const teamMembers: Member[] = [
         name: "Nguyễn Hiển Gia Bảo",
         role: "Developer",
         image: "/images/members/nguyen-hien-gia-bao.jpg",
-        description: "Chuyên gia phát triển tính năng"
+        description: "UI/UX Designer và Frontend Developer"
     },
     {
         id: 5,
         name: "Nguyễn Đình Hướng",
         role: "Developer",
         image: "/images/members/nguyen-dinh-huong.jpg",
-        description: "Architect và system design"
+        description: "Đóng góp tích cực trong việc phát triển hệ thống"
     },
     {
         id: 6,
         name: "Trương Thị Kiều An",
         role: "Developer",
         image: "/images/members/truong-thi-kieu-an.jpg",
-        description: "UI/UX Designer và Frontend Developer"
+        description: "Chuyên gia về frontend và user experience"
     }
 ];
 
