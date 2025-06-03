@@ -1,36 +1,155 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Honor Donace - Landing Page Vinh Danh
 
-## Getting Started
+Trang Landing Page vinh danh những thành viên xuất sắc đã cống hiến cho dự án **Donace** - Event Management and Tickets Platform.
 
-First, run the development server:
+## 🎨 Thiết Kế
 
+- **Phong cách**: Cổ điển Pháp với pastel color palette
+- **Màu sắc chủ đạo**: 
+  - Cream (#F8F6F0)
+  - Sage Green (#B8C5B8) 
+  - Dusty Rose (#E8B4B8)
+  - Lavender (#D4C5E8)
+  - Warm Beige (#E8DCC0)
+  - Muted Gold (#D4C5A9)
+- **Typography**: Playfair Display (serif) + Inter (sans-serif)
+- **Decorative Elements**: Ivy vines, French ornaments, floral patterns
+
+## 👥 Thành Viên Được Vinh Danh
+
+1. **Trần Phú Đạt** - Developer
+2. **Nguyễn Hoàng Tùng** - Developer  
+3. **Trần Văn Tiếp** - Developer
+4. **Nguyễn Hiển Gia Bảo** - Developer
+5. **Nguyễn Đình Hướng** - Developer
+6. **Trương Thị Kiều An** - Developer
+
+## 🛠 Công Nghệ
+
+- **Framework**: Next.js 15.3.3
+- **Styling**: Tailwind CSS 4
+- **Language**: TypeScript
+- **Icons**: Custom SVG decorative elements
+- **Images**: Next.js Image optimization
+
+## 🚀 Cài Đặt và Chạy
+
+### Yêu cầu
+- Node.js 18+ 
+- npm hoặc yarn
+
+### Cài đặt dependencies
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Chạy development server
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Mở [http://localhost:3000](http://localhost:3000) để xem kết quả.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Build production
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 📁 Cấu Trúc Dự Án
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── globals.css          # Global styles với French classical themes
+│   ├── layout.tsx           # Root layout với SEO metadata
+│   └── page.tsx            # Main page component
+├── components/
+│   ├── Header.tsx          # Header với logo và navigation
+│   ├── Hero.tsx            # Hero section với title chính
+│   ├── TeamGallery.tsx     # Gallery hiển thị team members
+│   ├── MemberCard.tsx      # Card component cho từng member
+│   ├── AppreciationSection.tsx # Section lời cảm ơn
+│   ├── Footer.tsx          # Footer với thông tin dự án
+│   └── decorative/         # Decorative components
+│       ├── IvyBorder.tsx   # Ivy vine decorations
+│       ├── FrenchOrnament.tsx # French classical ornaments  
+│       └── FloralPattern.tsx  # Floral patterns
+├── data/
+│   └── members.ts          # Data của team members
+└── styles/                 # Additional styles (if needed)
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Tính Năng
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### ✨ Visual Features
+- **Responsive Design**: Hoàn toàn responsive trên tất cả devices
+- **French Classical Style**: Ornaments và decorations theo phong cách cổ điển Pháp
+- **Pastel Color Palette**: Màu sắc nhẹ nhàng, thanh lịch
+- **Ivy Vine Decorations**: Dây leo xanh bao quanh member cards
+- **Smooth Animations**: Hiệu ứng chuyển động mượt mà
+- **Custom Typography**: Font chữ serif cổ điển
 
-## Deploy on Vercel
+### 🖼 Image Features  
+- **1:1 Aspect Ratio**: Tất cả ảnh members đều tỷ lệ vuông
+- **Decorative Frames**: Khung ảnh với ornamental borders
+- **Hover Effects**: Hiệu ứng khi hover lên member cards
+- **Lazy Loading**: Tối ưu loading ảnh
+- **Fallback Images**: Placeholder tự động nếu ảnh lỗi
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🔍 SEO & Performance
+- **Structured Data**: Schema markup cho organization và members
+- **Open Graph**: Meta tags cho social sharing  
+- **Optimized Images**: Next.js Image component với optimization
+- **Fast Loading**: Performance optimizations
+- **Accessibility**: ARIA labels và keyboard navigation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎨 Customization
+
+### Thay đổi thành viên
+Chỉnh sửa file `src/data/members.ts`:
+
+```typescript
+export const teamMembers: Member[] = [
+  {
+    id: 1,
+    name: "Tên thành viên",
+    role: "Vị trí", 
+    image: "/images/members/avatar.jpg",
+    description: "Mô tả đóng góp"
+  },
+  // Thêm members khác...
+];
+```
+
+### Thay đổi màu sắc
+Chỉnh sửa `tailwind.config.ts` để thay đổi color palette.
+
+### Thêm ảnh members
+1. Thêm ảnh vào `public/images/members/`
+2. Cập nhật đường dẫn trong `members.ts`
+3. Ảnh nên có tỷ lệ 1:1 (vuông) để hiển thị đẹp nhất
+
+## 📱 Responsive Breakpoints
+
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px  
+- **Desktop**: > 1024px
+
+Gallery tự động điều chỉnh từ 1 column (mobile) → 2 columns (tablet) → 3 columns (desktop).
+
+## 🎭 Animations
+
+- **Fade In**: Entrance animations cho các sections
+- **Stagger**: Member cards hiện ra theo thứ tự
+- **Hover Effects**: Scale và shadow transitions
+- **Float**: Decorative elements có animation nhẹ nhàng
+- **Smooth Scroll**: Navigation mượt mà giữa các sections
+
+## 💝 Lời Cảm Ơn
+
+Dự án này được tạo ra để vinh danh những đóng góp quý báu của đội ngũ phát triển Donace. Mỗi thành viên đều có vai trò quan trọng trong thành công của dự án.
+
+---
+
+**Donace Team** © 2025 - Được phát triển với ❤️
