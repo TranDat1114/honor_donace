@@ -55,10 +55,8 @@ export const TeamGallery: React.FC = () => {
                         <FloralPattern pattern="rose" size="md" className="opacity-60" />
                         <FrenchOrnament size="md" variant="divider" className="opacity-80" />
                         <FloralPattern pattern="vine" size="md" className="opacity-60" />
-                    </div>
-
-                    <p className="mx-auto max-w-2xl font-serif text-sage-600 text-lg italic">
-                        "Thành công không đến từ một cá nhân, mà từ sức mạnh của cả đội ngũ"
+                    </div>                    <p className="mx-auto max-w-2xl font-serif text-sage-600 text-lg italic">
+                        &ldquo;Thành công không đến từ một cá nhân, mà từ sức mạnh của cả đội ngũ&rdquo;
                     </p>
                 </div>
             </div>

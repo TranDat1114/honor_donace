@@ -82,11 +82,10 @@ export const AppreciationSection: React.FC = () => {
                                 </div>
                             </div>
 
-                            {/* Quote */}
-                            <div className="bg-gradient-to-r from-sage-50 to-dustyRose-50 mt-12 p-8 border border-sage-200 rounded-2xl">
+                            {/* Quote */}                            <div className="bg-gradient-to-r from-sage-50 to-dustyRose-50 mt-12 p-8 border border-sage-200 rounded-2xl">
                                 <blockquote className="font-serif text-sage-800 text-xl md:text-2xl text-center italic">
-                                    "Không có thành công nào đạt được mà không có sự đóng góp của từng thành viên.
-                                    Donace là minh chứng cho sức mạnh của tinh thần đồng đội và tầm nhìn chung."
+                                    &ldquo;Không có thành công nào đạt được mà không có sự đóng góp của từng thành viên.
+                                    Donace là minh chứng cho sức mạnh của tinh thần đồng đội và tầm nhìn chung.&rdquo;
                                 </blockquote>
                                 <div className="flex justify-center mt-6">
                                     <FrenchOrnament size="sm" variant="divider" />

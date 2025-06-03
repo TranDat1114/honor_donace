@@ -72,7 +72,7 @@ const config: Config = {
                     900: '#6f592b',
                 }
             }, fontFamily: {
-                'serif': ['var(--font-playfair)', 'Playfair Display', 'Georgia', 'serif'],
+                'serif': ['var(--font-lobster)', 'Lobster', 'Georgia', 'serif'],
                 'sans': ['var(--font-inter)', 'Inter', 'system-ui', 'sans-serif'],
             },
             backgroundImage: {
